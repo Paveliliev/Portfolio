@@ -22,10 +22,20 @@ header {
 }
 nav a {
     padding: 0.3rem 1rem;
-    border: #ddd solid 0.1rem;
+    outline:none;
     text-decoration: none;
     font-weight: bold;
+    color:black;
 }
+    nav a:focus {
+        box-shadow: grey 0 2px;
+        transition: 0.5s;
+    }
+
+    nav a:hover {
+        box-shadow: grey 0 2px;
+        transition: 0.5s;
+    }
 main {
     display:grid;
     grid-template:repeat(8, 1fr) / 1fr 1fr;
@@ -100,7 +110,7 @@ input[id="form-switch"] {
     transition: 0.5s;
 }
 input:checked[id="form-switch"] {
-    background: #03a9f4;
+    background: #ddd;
 }
 input[id="form-switch"]:before {
     content: '';
