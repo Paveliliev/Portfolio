@@ -1,96 +1,79 @@
 ﻿<!Doctype html>
 <html>
 <head>
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta charset="UTF-8">
- 	<meta name="description" content="">
+	<meta name="description" content="">
 	<meta name="keywords" content="HTML, CSS, JavaScript">
- 	<meta name="author" content="Pavel Ilev">
- 	
-	<link rel="stylesheet" type="text/css" href="../CSS/styles.css"/>
-	<link rel="stylesheet" type="text/css" href="../CSS/normalize.css"/>
-	<script src="../JS/jQuery.js"></script>
-	<script src="../JS/javascript.js"></script>
+	<meta name="author" content="Pavel Ilev">
+
+	<link rel="stylesheet" type="text/css" href="../CSS/styles.css" />
+	<!-- <link rel="stylesheet" type="text/css" href="../CSS/normalize.css"/>-->
+	<!-- <script src="../JS/jQuery.js"></script> >-->
+	
+
 	<title>PortFolio</title>
 </head>
 <body>
-	<header>
-		<div id="name">
-			<h1>Pavel Iliev</h1>
+	<header id="header">
+		<h2>Pavel Iliev</h2>
+		<nav>
+			<a href="#about">ABOUT ME</a>
+			<a href="#projects">PROJECTS</a>
+			<a href="#skills">SKILLS</a>
+		</nav>
 
-		</div>
-		<div id="info">
-			<div class="left">
-				<p id="address">Address:</p>
-				<p id="email">Email:</p>
-				<p id="phone">Phone:</p>
-				<p id="website">Website:</p>
-			</div>
-			<div class="right">
-				<p id="address1">opulchenska</p>
-				<p id="email1">pavelnili94@gmail.com</p>
-				<p id="phone1">+44********</p>
-				<p id="website1">paveliliev.me</p>
-			</div>
-		</div>
+
+
+
+
+
+		<label class="form-switch">
+			<input type="checkbox" id="form-switch">
+
+			<span class="reverse-mode-text">Reverse Mode</span>
+		</label>
+		
+
+
+
+
 
 
 	</header>
 
-	
+
 	<main>
-		<section id="about">
-			<h2>About me</h2>
-		</section>
-		<section id="experience">
-			<h2>Experience / Past projects</h2>
-			<div class="project">
-				<p><bold>Project's name 1</bold>this is doing something</p>
-			</div>
-			<div class="project">
-				<p><bold>Project's name 2</bold>this is doing something</p>
-			</div>
-			<div class="project">
-				<p><bold>Project's name 3</bold>this is doing something</p>
-			</div>
-			<div class="project">
-				<p><bold>Project's name 4</bold>this is doing something</p>
-			</div>
-		</section>
-		<section id="education">
-			<h2>Education</h2>
-			<div class="education">
-				<p><bold>education's name 1</bold>this is doing something</p>
-			</div>
-			<div class="education">
-				<p><bold>education's name 2</bold>this is doing something</p>
-			</div><div class="education">
-				<p><bold>education's name 3</bold>this is doing something</p>
-			</div>
-			<div class="education">
-				<p><bold>education's name 4</bold>this is doing something</p>
-			</div>
-		</section>
-		<section id="skills">
-			<h2>Skills</h2>
-			<div class="skills">
-				<p><bold>HTML </bold>something</p>
-			</div>
-			<div class="skills">
-				<p><bold>CSS </bold>something</p>
-			</div>
-			<div class="skills">
-				<p><bold>JavaScript </bold>something</p>
-			</div>
-			<div class="skills">
-				<p><bold>skill 4 </bold>something</p>
-			</div>
-		</section>
+		<div id="name" class="name">
+			<h1>Hello I am Pavel</h1>
+
+
+		</div>
+		<div id="about" class="about main">
+			<h2>About Me</h2>
+			<p>Hello, my name is Pavel Iliev and i am a Full-Stack Engineer (Codecademy). </p>
+		</div>
+		<div id="projects" class="projects main">
+			<h2>Projects</h2>
+			<p> Project 1</p>
+		</div>
+		<div id="skills" class="skills main">
+
+			<h2>Skills</h2><br />
+			<img src="../pics/html.jfif" alt="HTML5" />
+			<img src="../pics/css.jfif" alt="CSS" />
+			<img src="../pics/js.jfif" alt="JS" />
+
+		</div>
+
+
+
 	</main>
-	
+
 	<footer>
-		
+		<p label="email"><bold>Email:</bold> Pavelnili94@gmail.com</p>
 	</footer>
+	<script src="../JS/javascript.js"></script>
 </body>
-</html>
+	</html>
